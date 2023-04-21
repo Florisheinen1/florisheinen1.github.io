@@ -40,15 +40,12 @@ nav {
     position: absolute;
     top: 50%;
     list-style: none;
-    /* float: right; */
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     width: inherit;
-    /* border: 1px solid red; */
 }
 
 .tab-link {
-    /* border: 1px solid green; */
     width: 100%;
     display: block;
     padding: 1vh 2vw;
@@ -65,11 +62,42 @@ nav {
     border-bottom-right-radius: 2vh;
 }
 
-/* #media-buttons {
+#media-buttons {
     bottom: 0;
     position: absolute;
-    border: 1px solid red;
-} */
+    width: inherit;
+    padding: 3vh 0;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.media-button-image {
+    width: 3vw;
+    height: auto;
+
+    margin: 2px;
+    padding: 5px;
+    background-color: #cfcfcf;
+    transition: all 0.1s;
+}
+
+.media-button-image:hover {
+    margin: 0px;
+    padding: 7px;
+    background-color: white;
+}
+
+#media-button-linkedin {
+    border-radius: 10px;
+}
+
+#media-button-github {
+    border-radius: 100%;
+}
 
 body {
     height: 100%;
