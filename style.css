@@ -56,6 +56,7 @@ nav {
 
 .tab-link:hover {
     background-color: #1d2121;
+    color: white;
     width: 110%;
     padding-right: 3vw;
     border-top-right-radius: 2vh;
@@ -79,20 +80,20 @@ nav {
     width: 3vw;
     height: auto;
 
-    margin: 2px;
-    padding: 5px;
+    margin: 0.1vw;
+    padding: 0.3vw;
     background-color: #cfcfcf;
     transition: all 0.1s;
 }
 
 .media-button-image:hover {
-    margin: 0px;
-    padding: 7px;
+    margin: 0;
+    padding: 0.4vw;
     background-color: white;
 }
 
 #media-button-linkedin {
-    border-radius: 10px;
+    border-radius: 1vw;
 }
 
 #media-button-github {
